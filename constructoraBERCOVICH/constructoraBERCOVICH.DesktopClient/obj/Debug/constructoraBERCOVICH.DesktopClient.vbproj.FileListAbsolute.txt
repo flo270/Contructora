@@ -1,0 +1,110 @@
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\LSResourceGeneratorsTask.mcs
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\LSClientCodeGeneratorsTask.mcs
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.pdb
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\AppManifest.xaml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.xap
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\XapCache.tmp
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.Data.Edm.SL.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.Data.Services.Client.SL.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Base.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Client.Internal.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Cosmopolitan.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Extensions.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Extensions.Design.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.ManifestService.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Model.Xaml.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.RuntimeEditor.Internal.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.SDKProxy.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ComponentModel.Composition.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ComponentModel.DataAnnotations.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.Extensions.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.PollingDuplex.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.Web.Extensions.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Data.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Data.Input.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Input.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Navigation.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Data.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Xml.Linq.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.Data.OData.SL.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.CSharp.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Xml.Serialization.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Spatial.SL.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Client.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ComponentModel.Composition.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ComponentModel.DataAnnotations.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.Extensions.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.PollingDuplex.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.Web.Extensions.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Data.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Data.Input.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Input.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Navigation.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Data.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Xml.Linq.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.CSharp.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Xml.Serialization.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.vbprojResolveAssemblyReference.cache
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.pdb
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\LSResourceGeneratorsTask.mcs
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\LSClientCodeGeneratorsTask.mcs
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.pdb
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\AppManifest.xaml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\constructoraBERCOVICH.DesktopClient.xap
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\XapCache.tmp
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.Data.Edm.SL.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.Data.Services.Client.SL.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Base.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Client.Internal.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Cosmopolitan.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Extensions.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Extensions.Design.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.ManifestService.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.Model.Xaml.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.RuntimeEditor.Internal.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.LightSwitch.SDKProxy.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ComponentModel.Composition.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.Extensions.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.PollingDuplex.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.Web.Extensions.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Data.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Input.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Controls.Navigation.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Windows.Data.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Xml.Linq.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.Data.OData.SL.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\Microsoft.CSharp.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Xml.Serialization.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.Spatial.SL.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\bin\Debug\System.ServiceModel.DomainServices.Client.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.vbprojResolveAssemblyReference.cache
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\obj\Debug\constructoraBERCOVICH.DesktopClient.pdb

@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="OBRA">
+    <EntityType.Attributes>
+      <CreatedModifiedPropertiesEnabled />
+    </EntityType.Attributes>
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="Id"
+        PropertyType=":Int32">
+        <KeyProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="CODIGO"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="NOMBRE"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="SUPERFICIEENMETROSCUADRADOS"
+        PropertyType=":Double">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="FECHAINICIO"
+        PropertyType=":Date">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="FECHAPROBABLEFIN"
+        PropertyType=":Date">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <NavigationProperty
+        Name="CONSTRUCCIONDEOBRAs"
+        Association="OBRA_CONSTRUCCIONDEOBRA"
+        FromEnd="OBRA"
+        ToEnd="CONSTRUCCIONDEOBRA" />
+      <NavigationProperty
+        Name="INSPECCIONs"
+        Association="INSPECCION_OBRA"
+        FromEnd="OBRA"
+        ToEnd="INSPECCION" />
+      <NavigationProperty
+        Name="PLANOes"
+        Association="PLANO_OBRA"
+        FromEnd="OBRA"
+        ToEnd="PLANO" />
+      <NavigationProperty
+        Name="PERMISOSCollection"
+        Association="PERMISOS_OBRA"
+        FromEnd="OBRA"
+        ToEnd="PERMISOS" />
+      <NavigationProperty
+        Name="INSPECCIONMUNICIPALs"
+        Association="INSPECCIONMUNICIPAL_OBRA"
+        FromEnd="OBRA"
+        ToEnd="INSPECCIONMUNICIPAL" />
+      <EntityProperty
+        Name="CreatedBy"
+        IsReadOnly="True"
+        PropertyType=":Person?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Created"
+        IsReadOnly="True"
+        PropertyType=":DateTimeOffset?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ModifiedBy"
+        IsReadOnly="True"
+        PropertyType=":Person?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Modified"
+        IsReadOnly="True"
+        PropertyType=":DateTimeOffset?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="RowVersion"
+        PropertyType=":RowVersion">
+        <EntityProperty.Attributes>
+          <Hidden />
+          <UseForConcurrency />
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="ApplicationData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="OBRAs"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="OBRA" />
+    <QueryOperation
+      Name="OBRAs_Single"
+      ReturnType="OBRA">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="Id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="Id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="OBRAs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="Id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'Id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="OBRAs_SingleOrDefault"
+      ReturnType="OBRA">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="Id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="Id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="OBRAs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="Id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'Id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <AssociationSet
+      Name="OBRA_CONSTRUCCIONDEOBRAs"
+      Association="OBRA_CONSTRUCCIONDEOBRA">
+      <AssociationSetEnd
+        Name="OBRA"
+        EntitySet="OBRAs" />
+      <AssociationSetEnd
+        Name="CONSTRUCCIONDEOBRA"
+        EntitySet="CONSTRUCCIONDEOBRAs" />
+    </AssociationSet>
+    <AssociationSet
+      Name="INSPECCION_OBRAs"
+      Association="INSPECCION_OBRA">
+      <AssociationSetEnd
+        Name="INSPECCION"
+        EntitySet="INSPECCIONs" />
+      <AssociationSetEnd
+        Name="OBRA"
+        EntitySet="OBRAs" />
+    </AssociationSet>
+    <AssociationSet
+      Name="PLANO_OBRAs"
+      Association="PLANO_OBRA">
+      <AssociationSetEnd
+        Name="PLANO"
+        EntitySet="PLANOes" />
+      <AssociationSetEnd
+        Name="OBRA"
+        EntitySet="OBRAs" />
+    </AssociationSet>
+    <AssociationSet
+      Name="PERMISOS_OBRAs"
+      Association="PERMISOS_OBRA">
+      <AssociationSetEnd
+        Name="PERMISOS"
+        EntitySet="PERMISOSSet" />
+      <AssociationSetEnd
+        Name="OBRA"
+        EntitySet="OBRAs" />
+    </AssociationSet>
+    <AssociationSet
+      Name="INSPECCIONMUNICIPAL_OBRAs"
+      Association="INSPECCIONMUNICIPAL_OBRA">
+      <AssociationSetEnd
+        Name="INSPECCIONMUNICIPAL"
+        EntitySet="INSPECCIONMUNICIPALs" />
+      <AssociationSetEnd
+        Name="OBRA"
+        EntitySet="OBRAs" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association
+    Name="OBRA_CONSTRUCCIONDEOBRA">
+    <AssociationEnd
+      Name="OBRA"
+      Multiplicity="One"
+      EntityType="OBRA">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+    <AssociationEnd
+      Name="CONSTRUCCIONDEOBRA"
+      Multiplicity="Many"
+      EntityType="CONSTRUCCIONDEOBRA" />
+  </Association>
+  <DataService
+    Name="ApplicationDataMapping">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <AssociationSetMapping
+      AssociationSet="OBRA_CONSTRUCCIONDEOBRAs">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="OBRA_CONSTRUCCIONDEOBRAs" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[OBRA_CONSTRUCCIONDEOBRAs]/Members[OBRA]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[OBRA_CONSTRUCCIONDEOBRAs]/Members[CONSTRUCCIONDEOBRA]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="OBRA_CONSTRUCCIONDEOBRA" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+    <AssociationSetMapping
+      AssociationSet="INSPECCION_OBRAs">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="INSPECCION_OBRAs" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[INSPECCION_OBRAs]/Members[INSPECCION]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="INSPECCION_OBRA" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[INSPECCION_OBRAs]/Members[OBRA]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+    <AssociationSetMapping
+      AssociationSet="PLANO_OBRAs">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="PLANO_OBRAs" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[PLANO_OBRAs]/Members[PLANO]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="PLANO_OBRA" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[PLANO_OBRAs]/Members[OBRA]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+    <AssociationSetMapping
+      AssociationSet="PERMISOS_OBRAs">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="PERMISOS_OBRAs" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[PERMISOS_OBRAs]/Members[PERMISOS]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="PERMISOS_OBRA" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[PERMISOS_OBRAs]/Members[OBRA]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+    <AssociationSetMapping
+      AssociationSet="INSPECCIONMUNICIPAL_OBRAs">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="INSPECCIONMUNICIPAL_OBRAs" />
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[INSPECCIONMUNICIPAL_OBRAs]/Members[INSPECCIONMUNICIPAL]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="INSPECCIONMUNICIPAL_OBRA" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="ApplicationData/Members[INSPECCIONMUNICIPAL_OBRAs]/Members[OBRA]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="Id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+  </DataService>
+  <Association
+    Name="INSPECCION_OBRA">
+    <AssociationEnd
+      Name="INSPECCION"
+      Multiplicity="Many"
+      EntityType="INSPECCION" />
+    <AssociationEnd
+      Name="OBRA"
+      Multiplicity="One"
+      EntityType="OBRA">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+  </Association>
+  <Association
+    Name="PLANO_OBRA">
+    <AssociationEnd
+      Name="PLANO"
+      Multiplicity="Many"
+      EntityType="PLANO" />
+    <AssociationEnd
+      Name="OBRA"
+      Multiplicity="One"
+      EntityType="OBRA">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+  </Association>
+  <Association
+    Name="PERMISOS_OBRA">
+    <AssociationEnd
+      Name="PERMISOS"
+      Multiplicity="Many"
+      EntityType="PERMISOS" />
+    <AssociationEnd
+      Name="OBRA"
+      Multiplicity="One"
+      EntityType="OBRA">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+  </Association>
+  <Association
+    Name="INSPECCIONMUNICIPAL_OBRA">
+    <AssociationEnd
+      Name="INSPECCIONMUNICIPAL"
+      Multiplicity="Many"
+      EntityType="INSPECCIONMUNICIPAL" />
+    <AssociationEnd
+      Name="OBRA"
+      Multiplicity="One"
+      EntityType="OBRA">
+      <AssociationEnd.Attributes>
+        <DeleteRule
+          Action="Restrict" />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+  </Association>
+</ServiceApplication>

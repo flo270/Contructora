@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\AVANCEDEOBRAs.lsml" Checksum="E6CCE2DD61BF9B02F12E751F197C28E3EF1ECB612A7DA1F7AF1672B45B3F2BF3" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\CONSTRUCCIONDEOBRAs.lsml" Checksum="4C14D7AFA88635FA3030F11CDB99480514DBF5E98AF0782E04645A5253D301D2" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\INSPECCIONMUNICIPALs.lsml" Checksum="CF88C6710E5B3A00678B1FA7F54D0D474E115C6D8411043B162387A5F73EAB90" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\INSPECCIONs.lsml" Checksum="BD30B77D4434384131D44B1FFF28220A5D9E7312FC4EB040A7669DDB299346ED" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\OBRAs.lsml" Checksum="E23AC38FEA055F65530A8198622A60BB242E5D278954939734AA5DDC0F9E83F3" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\PERMISOSSet.lsml" Checksum="A481243C0D37E423F92D5B96F5666A29FAC7AECDD8ABB3BDD0182E8A4629A22F" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\DataSources\ApplicationData\PLANOes.lsml" Checksum="63A0661DA27131A7AD8BB4C0957EE34648D6DFEB0666BBAE45A1F15F61EF5C38" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\My Project\DataSources\ApplicationData.lsml" Checksum="E6FEEAC3B4A850AAC5F0029259A0B9F8C1BD45F2950D17BD8D6664B9422E6AD6" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\My Project\Service.lsml" Checksum="679C78F29C5AF23E9956A773B0E46DF90F7B86CADA0B79571E5896A1C79F5B70" />
+  </Documents>
+</ModelDocumentManifest>

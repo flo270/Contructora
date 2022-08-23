@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\My Project\Client.lsml" Checksum="15C308ECC88F01320F4731CB920AEB559F8C811F6564D3B0BF67706BDE149FC8" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\My Project\Proxies.lsml" Checksum="E188D111EF856559168BDF657F7AB1F07F4A488106EB15F4F6B8DA54F9C37A34" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESITIONDEINSPECCIONES.lsml" Checksum="F761F456A0AAA660BF47122C27A17149058FFDE2C1A622B9517C7604D817135B" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESTIONDEAVANCEDEOBRA.lsml" Checksum="0CD7FEC00CE0A515238470CC82DE3BA853A77EDB6B364707142A16B63B53B7E8" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESTIONDECONSTRUCCIONDEOBRA.lsml" Checksum="2888263DEE05D7D6DD4FB89628961A7FAB0188A8B3C3D3B669AAFD630D4528DB" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESTIONDEINSPECCIONMUNIPAL.lsml" Checksum="BC5F1F38459C2B041BF191FBE915AF9A5E5729A6C0B4A86AE15E8155F31ECE55" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESTIONDEOBRAS.lsml" Checksum="51955C31DE27250A89CD902FAE8E4D73C72B952282FFF684E7E93163D570D150" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESTIONDEPERMISOS.lsml" Checksum="6CAD20C9A601406F0B9528BF274E0DC0DAA1BC3A4BB6C24F8A0416E57A9843F9" />
+    <Document FullPath="D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.DesktopClient\Screens\GESTIONDEPLANOS.lsml" Checksum="AC70C8679B76D1EF9EA6FD935BD5BC56560F4A3F3526D571231F216E0D8CA9BB" />
+  </Documents>
+</ModelDocumentManifest>

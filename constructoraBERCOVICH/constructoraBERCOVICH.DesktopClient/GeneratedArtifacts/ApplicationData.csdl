@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Namespace="LightSwitchApplication" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityType Name="AVANCEDEOBRA">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CATEGORIA" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="TIPODEAVANCE" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="FECHAAVANCE" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="FECHAPOSIBLEDEFINALIZACION" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="AVANCEDEOBRA_CONSTRUCCIONDEOBRA" Type="Edm.Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="CONSTRUCCIONDEOBRA" Relationship="LightSwitchApplication.AVANCEDEOBRA_CONSTRUCCIONDEOBRA" ToRole="CONSTRUCCIONDEOBRA" FromRole="AVANCEDEOBRA" />
+  </EntityType>
+  <EntityType Name="CONSTRUCCIONDEOBRA">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CODIGO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="TIPO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="FECHA" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="OBRA_CONSTRUCCIONDEOBRA" Type="Edm.Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="OBRA" Relationship="LightSwitchApplication.OBRA_CONSTRUCCIONDEOBRA" ToRole="OBRA" FromRole="CONSTRUCCIONDEOBRA" />
+    <NavigationProperty Name="AVANCEDEOBRAs" Relationship="LightSwitchApplication.AVANCEDEOBRA_CONSTRUCCIONDEOBRA" ToRole="AVANCEDEOBRA" FromRole="CONSTRUCCIONDEOBRA" />
+  </EntityType>
+  <EntityType Name="INSPECCIONMUNICIPAL">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FECHAREALIZADA" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="ESTADO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="FECHAESTADO" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="INSPECCIONMUNICIPAL_OBRA" Type="Edm.Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="OBRA" Relationship="LightSwitchApplication.INSPECCIONMUNICIPAL_OBRA" ToRole="OBRA" FromRole="INSPECCIONMUNICIPAL" />
+  </EntityType>
+  <EntityType Name="INSPECCION">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FECHA" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="CATEGORIA" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="ESTADO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="FECHADEESTADO" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="INSPECCION_OBRA" Type="Edm.Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="OBRA" Relationship="LightSwitchApplication.INSPECCION_OBRA" ToRole="OBRA" FromRole="INSPECCION" />
+  </EntityType>
+  <EntityType Name="OBRA">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CODIGO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="NOMBRE" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="SUPERFICIEENMETROSCUADRADOS" Type="Edm.Double" Nullable="false" />
+    <Property Name="FECHAINICIO" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="FECHAPROBABLEFIN" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="CONSTRUCCIONDEOBRAs" Relationship="LightSwitchApplication.OBRA_CONSTRUCCIONDEOBRA" ToRole="CONSTRUCCIONDEOBRA" FromRole="OBRA" />
+    <NavigationProperty Name="INSPECCIONs" Relationship="LightSwitchApplication.INSPECCION_OBRA" ToRole="INSPECCION" FromRole="OBRA" />
+    <NavigationProperty Name="PLANOes" Relationship="LightSwitchApplication.PLANO_OBRA" ToRole="PLANO" FromRole="OBRA" />
+    <NavigationProperty Name="PERMISOSCollection" Relationship="LightSwitchApplication.PERMISOS_OBRA" ToRole="PERMISOS" FromRole="OBRA" />
+    <NavigationProperty Name="INSPECCIONMUNICIPALs" Relationship="LightSwitchApplication.INSPECCIONMUNICIPAL_OBRA" ToRole="INSPECCIONMUNICIPAL" FromRole="OBRA" />
+  </EntityType>
+  <EntityType Name="PERMISOS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CODIGO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="NOMBRE" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="FECHADEPRESENTACION" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="FECHADEAPROBACION" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="PERMISOS_OBRA" Type="Edm.Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="OBRA" Relationship="LightSwitchApplication.PERMISOS_OBRA" ToRole="OBRA" FromRole="PERMISOS" />
+  </EntityType>
+  <EntityType Name="PLANO">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NUMERO" Type="Edm.Int32" Nullable="false" />
+    <Property Name="TIPO" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="FECHAREALIZADO" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="FECHAAPROBADO" Type="Edm.DateTime" Nullable="false" />
+    <Property Name="PLANO_OBRA" Type="Edm.Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="OBRA" Relationship="LightSwitchApplication.PLANO_OBRA" ToRole="OBRA" FromRole="PLANO" />
+  </EntityType>
+  <Association Name="AVANCEDEOBRA_CONSTRUCCIONDEOBRA">
+    <End Role="CONSTRUCCIONDEOBRA" Type="LightSwitchApplication.CONSTRUCCIONDEOBRA" Multiplicity="1" />
+    <End Role="AVANCEDEOBRA" Type="LightSwitchApplication.AVANCEDEOBRA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CONSTRUCCIONDEOBRA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AVANCEDEOBRA">
+        <PropertyRef Name="AVANCEDEOBRA_CONSTRUCCIONDEOBRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OBRA_CONSTRUCCIONDEOBRA">
+    <End Role="OBRA" Type="LightSwitchApplication.OBRA" Multiplicity="1" />
+    <End Role="CONSTRUCCIONDEOBRA" Type="LightSwitchApplication.CONSTRUCCIONDEOBRA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OBRA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CONSTRUCCIONDEOBRA">
+        <PropertyRef Name="OBRA_CONSTRUCCIONDEOBRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="INSPECCION_OBRA">
+    <End Role="OBRA" Type="LightSwitchApplication.OBRA" Multiplicity="1" />
+    <End Role="INSPECCION" Type="LightSwitchApplication.INSPECCION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OBRA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="INSPECCION">
+        <PropertyRef Name="INSPECCION_OBRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PLANO_OBRA">
+    <End Role="OBRA" Type="LightSwitchApplication.OBRA" Multiplicity="1" />
+    <End Role="PLANO" Type="LightSwitchApplication.PLANO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OBRA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PLANO">
+        <PropertyRef Name="PLANO_OBRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PERMISOS_OBRA">
+    <End Role="OBRA" Type="LightSwitchApplication.OBRA" Multiplicity="1" />
+    <End Role="PERMISOS" Type="LightSwitchApplication.PERMISOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OBRA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PERMISOS">
+        <PropertyRef Name="PERMISOS_OBRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="INSPECCIONMUNICIPAL_OBRA">
+    <End Role="OBRA" Type="LightSwitchApplication.OBRA" Multiplicity="1" />
+    <End Role="INSPECCIONMUNICIPAL" Type="LightSwitchApplication.INSPECCIONMUNICIPAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OBRA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="INSPECCIONMUNICIPAL">
+        <PropertyRef Name="INSPECCIONMUNICIPAL_OBRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ApplicationData" m:IsDefaultEntityContainer="true">
+    <EntitySet Name="AVANCEDEOBRAs" EntityType="LightSwitchApplication.AVANCEDEOBRA" />
+    <EntitySet Name="CONSTRUCCIONDEOBRAs" EntityType="LightSwitchApplication.CONSTRUCCIONDEOBRA" />
+    <EntitySet Name="INSPECCIONMUNICIPALs" EntityType="LightSwitchApplication.INSPECCIONMUNICIPAL" />
+    <EntitySet Name="INSPECCIONs" EntityType="LightSwitchApplication.INSPECCION" />
+    <EntitySet Name="OBRAs" EntityType="LightSwitchApplication.OBRA" />
+    <EntitySet Name="PERMISOSSet" EntityType="LightSwitchApplication.PERMISOS" />
+    <EntitySet Name="PLANOes" EntityType="LightSwitchApplication.PLANO" />
+    <AssociationSet Name="AVANCEDEOBRA_CONSTRUCCIONDEOBRA" Association="LightSwitchApplication.AVANCEDEOBRA_CONSTRUCCIONDEOBRA">
+      <End Role="CONSTRUCCIONDEOBRA" EntitySet="CONSTRUCCIONDEOBRAs" />
+      <End Role="AVANCEDEOBRA" EntitySet="AVANCEDEOBRAs" />
+    </AssociationSet>
+    <AssociationSet Name="OBRA_CONSTRUCCIONDEOBRA" Association="LightSwitchApplication.OBRA_CONSTRUCCIONDEOBRA">
+      <End Role="OBRA" EntitySet="OBRAs" />
+      <End Role="CONSTRUCCIONDEOBRA" EntitySet="CONSTRUCCIONDEOBRAs" />
+    </AssociationSet>
+    <AssociationSet Name="INSPECCION_OBRA" Association="LightSwitchApplication.INSPECCION_OBRA">
+      <End Role="OBRA" EntitySet="OBRAs" />
+      <End Role="INSPECCION" EntitySet="INSPECCIONs" />
+    </AssociationSet>
+    <AssociationSet Name="PLANO_OBRA" Association="LightSwitchApplication.PLANO_OBRA">
+      <End Role="OBRA" EntitySet="OBRAs" />
+      <End Role="PLANO" EntitySet="PLANOes" />
+    </AssociationSet>
+    <AssociationSet Name="PERMISOS_OBRA" Association="LightSwitchApplication.PERMISOS_OBRA">
+      <End Role="OBRA" EntitySet="OBRAs" />
+      <End Role="PERMISOS" EntitySet="PERMISOSSet" />
+    </AssociationSet>
+    <AssociationSet Name="INSPECCIONMUNICIPAL_OBRA" Association="LightSwitchApplication.INSPECCIONMUNICIPAL_OBRA">
+      <End Role="OBRA" EntitySet="OBRAs" />
+      <End Role="INSPECCIONMUNICIPAL" EntitySet="INSPECCIONMUNICIPALs" />
+    </AssociationSet>
+    <FunctionImport Name="Microsoft_LightSwitch_GetCanInformation" ReturnType="Edm.String" m:HttpMethod="GET">
+      <Parameter Name="dataServiceMembers" Type="Edm.String" Mode="In" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,1160 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Application.Server
+</name>
+</assembly>
+<members>
+<member name="P:LightSwitchApplication.ApplicationDataService.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationDataService.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="T:LightSwitchApplication.ApplicationDataService">
+	<summary>
+ Proporciona miembros para consultar y actualizar datos en el origen de datos ApplicationData.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.#ctor">
+	<summary>
+ Inicializa un nuevo objeto ApplicationData usando la cadena de conexión encontrada en la sección 'ApplicationData' del archivo de configuración de la aplicación.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.#ctor(System.String)">
+	<summary>
+ Inicializar un nuevo objeto ApplicationData.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Inicializar un nuevo objeto ApplicationData.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.AVANCEDEOBRAs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.CONSTRUCCIONDEOBRAs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.INSPECCIONMUNICIPALs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.INSPECCIONs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.OBRAs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.PERMISOSSet">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.ApplicationData.PLANOes">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToAVANCEDEOBRAs(LightSwitchApplication.Implementation.AVANCEDEOBRA)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet AVANCEDEOBRAs. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToCONSTRUCCIONDEOBRAs(LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet CONSTRUCCIONDEOBRAs. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToINSPECCIONMUNICIPALs(LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet INSPECCIONMUNICIPALs. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToINSPECCIONs(LightSwitchApplication.Implementation.INSPECCION)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet INSPECCIONs. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToOBRAs(LightSwitchApplication.Implementation.OBRA)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet OBRAs. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToPERMISOSSet(LightSwitchApplication.Implementation.PERMISOS)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet PERMISOSSet. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.ApplicationData.AddToPLANOes(LightSwitchApplication.Implementation.PLANO)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet PLANOes. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.ApplicationData">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.AVANCEDEOBRA.CreateAVANCEDEOBRA(System.Int32,System.String,System.String,System.DateTime,System.DateTime,System.Int32,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto AVANCEDEOBRA.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="cATEGORIA">Valor inicial de la propiedad CATEGORIA.</param>
+	<param name="tIPODEAVANCE">Valor inicial de la propiedad TIPODEAVANCE.</param>
+	<param name="fECHAAVANCE">Valor inicial de la propiedad FECHAAVANCE.</param>
+	<param name="fECHAPOSIBLEDEFINALIZACION">Valor inicial de la propiedad FECHAPOSIBLEDEFINALIZACION.</param>
+	<param name="aVANCEDEOBRA_CONSTRUCCIONDEOBRA">Valor inicial de la propiedad AVANCEDEOBRA_CONSTRUCCIONDEOBRA.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.CATEGORIA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.TIPODEAVANCE">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.FECHAAVANCE">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.FECHAPOSIBLEDEFINALIZACION">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.AVANCEDEOBRA_CONSTRUCCIONDEOBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.CONSTRUCCIONDEOBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.AVANCEDEOBRA.CONSTRUCCIONDEOBRAReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.AVANCEDEOBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.CreateCONSTRUCCIONDEOBRA(System.Int32,System.String,System.String,System.DateTime,System.Int32,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto CONSTRUCCIONDEOBRA.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="cODIGO">Valor inicial de la propiedad CODIGO.</param>
+	<param name="tIPO">Valor inicial de la propiedad TIPO.</param>
+	<param name="fECHA">Valor inicial de la propiedad FECHA.</param>
+	<param name="oBRA_CONSTRUCCIONDEOBRA">Valor inicial de la propiedad OBRA_CONSTRUCCIONDEOBRA.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.CODIGO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.TIPO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.FECHA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.OBRA_CONSTRUCCIONDEOBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.OBRAReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA.AVANCEDEOBRAs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.CONSTRUCCIONDEOBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.INSPECCION.CreateINSPECCION(System.Int32,System.DateTime,System.String,System.String,System.DateTime,System.Int32,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto INSPECCION.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="fECHA">Valor inicial de la propiedad FECHA.</param>
+	<param name="cATEGORIA">Valor inicial de la propiedad CATEGORIA.</param>
+	<param name="eSTADO">Valor inicial de la propiedad ESTADO.</param>
+	<param name="fECHADEESTADO">Valor inicial de la propiedad FECHADEESTADO.</param>
+	<param name="iNSPECCION_OBRA">Valor inicial de la propiedad INSPECCION_OBRA.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.FECHA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.CATEGORIA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.ESTADO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.FECHADEESTADO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.INSPECCION_OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCION.OBRAReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.INSPECCION">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.CreateINSPECCIONMUNICIPAL(System.Int32,System.DateTime,System.String,System.DateTime,System.Int32,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto INSPECCIONMUNICIPAL.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="fECHAREALIZADA">Valor inicial de la propiedad FECHAREALIZADA.</param>
+	<param name="eSTADO">Valor inicial de la propiedad ESTADO.</param>
+	<param name="fECHAESTADO">Valor inicial de la propiedad FECHAESTADO.</param>
+	<param name="iNSPECCIONMUNICIPAL_OBRA">Valor inicial de la propiedad INSPECCIONMUNICIPAL_OBRA.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.FECHAREALIZADA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.ESTADO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.FECHAESTADO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.INSPECCIONMUNICIPAL_OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL.OBRAReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.INSPECCIONMUNICIPAL">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.OBRA.CreateOBRA(System.Int32,System.String,System.String,System.Double,System.DateTime,System.DateTime,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto OBRA.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="cODIGO">Valor inicial de la propiedad CODIGO.</param>
+	<param name="nOMBRE">Valor inicial de la propiedad NOMBRE.</param>
+	<param name="sUPERFICIEENMETROSCUADRADOS">Valor inicial de la propiedad SUPERFICIEENMETROSCUADRADOS.</param>
+	<param name="fECHAINICIO">Valor inicial de la propiedad FECHAINICIO.</param>
+	<param name="fECHAPROBABLEFIN">Valor inicial de la propiedad FECHAPROBABLEFIN.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.CODIGO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.NOMBRE">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.SUPERFICIEENMETROSCUADRADOS">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.FECHAINICIO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.FECHAPROBABLEFIN">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.CONSTRUCCIONDEOBRAs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.INSPECCIONs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.PLANOes">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.PERMISOSCollection">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.OBRA.INSPECCIONMUNICIPALs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.PERMISOS.CreatePERMISOS(System.Int32,System.String,System.String,System.DateTime,System.DateTime,System.Int32,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto PERMISOS.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="cODIGO">Valor inicial de la propiedad CODIGO.</param>
+	<param name="nOMBRE">Valor inicial de la propiedad NOMBRE.</param>
+	<param name="fECHADEPRESENTACION">Valor inicial de la propiedad FECHADEPRESENTACION.</param>
+	<param name="fECHADEAPROBACION">Valor inicial de la propiedad FECHADEAPROBACION.</param>
+	<param name="pERMISOS_OBRA">Valor inicial de la propiedad PERMISOS_OBRA.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.CODIGO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.NOMBRE">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.FECHADEPRESENTACION">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.FECHADEAPROBACION">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.PERMISOS_OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PERMISOS.OBRAReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.PERMISOS">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:LightSwitchApplication.Implementation.PLANO.CreatePLANO(System.Int32,System.Int32,System.String,System.DateTime,System.DateTime,System.Int32,System.Byte[])">
+	<summary>
+ Crear un nuevo objeto PLANO.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="nUMERO">Valor inicial de la propiedad NUMERO.</param>
+	<param name="tIPO">Valor inicial de la propiedad TIPO.</param>
+	<param name="fECHAREALIZADO">Valor inicial de la propiedad FECHAREALIZADO.</param>
+	<param name="fECHAAPROBADO">Valor inicial de la propiedad FECHAAPROBADO.</param>
+	<param name="pLANO_OBRA">Valor inicial de la propiedad PLANO_OBRA.</param>
+	<param name="rowVersion">Valor inicial de la propiedad RowVersion.</param>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.NUMERO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.TIPO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.FECHAREALIZADO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.FECHAAPROBADO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.PLANO_OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.CreatedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.Created">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.ModifiedBy">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.Modified">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.RowVersion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.OBRA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:LightSwitchApplication.Implementation.PLANO.OBRAReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:LightSwitchApplication.Implementation.PLANO">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="F:LightSwitchApplication.Permissions.SecurityAdministration">
+	<summary>
+ Permite administrar la seguridad de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.Permissions.AllPermissions">
+	<summary>
+ Obtiene todos los permisos definidos para la aplicación. esto incluye los permisos del sistema y definidos por el usuario.
+ </summary>
+</member><member name="T:LightSwitchApplication.Permissions">
+	<summary>
+ Defines the names of the application permissions.
+ </summary>
+</member><member name="M:LightSwitchApplication.AVANCEDEOBRA.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad AVANCEDEOBRA.
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.CATEGORIA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.TIPODEAVANCE">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.FECHAAVANCE">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.FECHAPOSIBLEDEFINALIZACION">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.AVANCEDEOBRA.CONSTRUCCIONDEOBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.AVANCEDEOBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="M:LightSwitchApplication.CONSTRUCCIONDEOBRA.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad CONSTRUCCIONDEOBRA.
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.CODIGO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.TIPO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.FECHA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.OBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.CONSTRUCCIONDEOBRA.AVANCEDEOBRAs">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.CONSTRUCCIONDEOBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="M:LightSwitchApplication.INSPECCIONMUNICIPAL.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad INSPECCIONMUNICIPAL.
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.FECHAREALIZADA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.ESTADO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.FECHAESTADO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCIONMUNICIPAL.OBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.INSPECCIONMUNICIPAL">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="M:LightSwitchApplication.INSPECCION.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad INSPECCION.
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.FECHA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.CATEGORIA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.ESTADO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.FECHADEESTADO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.INSPECCION.OBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.INSPECCION">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="M:LightSwitchApplication.DataWorkspace.#ctor">
+	<summary>
+ Inicializa una nueva instancia de un elemento DataWorkspace. En esta nueva instancia, los orígenes de datos pueden modificarse con independencia de los cambios realizados en los orígenes de datos del elemento DataWorkspace predeterminado.
+ </summary>
+</member><member name="P:LightSwitchApplication.DataWorkspace.ApplicationData">
+	<summary>
+ Obtiene el origen de datos ApplicationData. Este proporciona miembros para consultar y actualizar datos en el origen de datos.
+ </summary>
+</member><member name="M:LightSwitchApplication.ApplicationData.#ctor">
+	<summary>
+ Este constructor se usa para el marco interno de LightSwitch. Use DataWorkspace en su lugar.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.AVANCEDEOBRAs">
+	<summary>
+ Obtiene el conjunto de entidades AVANCEDEOBRAs. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.CONSTRUCCIONDEOBRAs">
+	<summary>
+ Obtiene el conjunto de entidades CONSTRUCCIONDEOBRAs. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.INSPECCIONMUNICIPALs">
+	<summary>
+ Obtiene el conjunto de entidades INSPECCIONMUNICIPALs. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.INSPECCIONs">
+	<summary>
+ Obtiene el conjunto de entidades INSPECCIONs. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.OBRAs">
+	<summary>
+ Obtiene el conjunto de entidades OBRAs. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.PERMISOSSet">
+	<summary>
+ Obtiene el conjunto de entidades PERMISOSSet. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="P:LightSwitchApplication.ApplicationData.PLANOes">
+	<summary>
+ Obtiene el conjunto de entidades PLANOes. El conjunto de entidades proporciona miembros para obtener acceso a las entidades de un tipo específico.
+ </summary>
+</member><member name="M:LightSwitchApplication.ApplicationData.AVANCEDEOBRAs_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.AVANCEDEOBRAs_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.CONSTRUCCIONDEOBRAs_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.CONSTRUCCIONDEOBRAs_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.INSPECCIONMUNICIPALs_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.INSPECCIONMUNICIPALs_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.INSPECCIONs_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.INSPECCIONs_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.OBRAs_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.OBRAs_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.PERMISOSSet_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.PERMISOSSet_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.PLANOes_Single(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s).
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="M:LightSwitchApplication.ApplicationData.PLANOes_SingleOrDefault(System.Nullable{System.Int32})">
+	<summary>
+ Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists.
+ </summary>
+	<param name="Id">
+ The value of the 'Id' key property of the entity to retrieve.
+ </param>
+</member><member name="T:LightSwitchApplication.ApplicationData">
+	<summary>
+ Proporciona miembros para consultar y actualizar datos en el origen de datos ApplicationData.
+ </summary>
+</member><member name="M:LightSwitchApplication.OBRA.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad OBRA.
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.CODIGO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.NOMBRE">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.SUPERFICIEENMETROSCUADRADOS">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.FECHAINICIO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.FECHAPROBABLEFIN">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.CONSTRUCCIONDEOBRAs">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.INSPECCIONs">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.PLANOes">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.PERMISOSCollection">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.OBRA.INSPECCIONMUNICIPALs">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.OBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="M:LightSwitchApplication.PERMISOS.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad PERMISOS.
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.CODIGO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.NOMBRE">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.FECHADEPRESENTACION">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.FECHADEAPROBACION">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PERMISOS.OBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.PERMISOS">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="M:LightSwitchApplication.PLANO.#ctor">
+	<summary>
+ Inicializa una nueva instancia de la entidad PLANO.
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.Application">
+	<summary>
+ Obtiene el objeto Application para esta aplicación. El objeto Application proporciona acceso a pantallas activas, métodos para abrir pantallas y acceso al usuario actual.
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.DataWorkspace">
+	<summary>
+ Obtiene el área de trabajo de datos contenedora. Dicha área proporciona acceso a todos los orígenes de datos de la aplicación.
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.Id">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.NUMERO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.TIPO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.FECHAREALIZADO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.FECHAAPROBADO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.CreatedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.Created">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.ModifiedBy">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.Modified">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.RowVersion">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="P:LightSwitchApplication.PLANO.OBRA">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member><member name="T:LightSwitchApplication.PLANO">
+	<summary>
+ No hay ninguna descripción modelada
+ </summary>
+</member>
+</members>
+</doc>

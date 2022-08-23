@@ -1,0 +1,9 @@
+constructoraBERCOVICH.Server.DataSources.ApplicationData.OBRAs.lsml
+constructoraBERCOVICH.Server.DataSources.ApplicationData.AVANCEDEOBRAs.lsml
+constructoraBERCOVICH.Server.DataSources.ApplicationData.CONSTRUCCIONDEOBRAs.lsml
+constructoraBERCOVICH.Server.DataSources.ApplicationData.INSPECCIONMUNICIPALs.lsml
+constructoraBERCOVICH.Server.DataSources.ApplicationData.PERMISOSSet.lsml
+constructoraBERCOVICH.Server.DataSources.ApplicationData.INSPECCIONs.lsml
+constructoraBERCOVICH.Server.DataSources.ApplicationData.PLANOes.lsml
+constructoraBERCOVICH.Server.My Project.DataSources.ApplicationData.lsml
+constructoraBERCOVICH.Server.My Project.Service.lsml

@@ -1,0 +1,76 @@
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\LSSvcGeneratorsTask.mcs
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\LSResourceGeneratorsTask.mcs
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\LSServerCodeGeneratorsTask.mcs
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Application.Server.dll.config
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Application.Server.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Application.Server.pdb
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\constructoraBERCOVICH.Server.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.Edm.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.OData.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.Services.Client.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.Services.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.AppBridge.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Extensions.Server.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.ManifestService.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Model.Xaml.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Server.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Server.Host.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Server.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.PollingDuplex.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.Spatial.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Server.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Server.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\constructoraBERCOVICH.Server.vbprojResolveAssemblyReference.cache
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\Application.Server.dll
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\constructoraBERCOVICH.Server.xml
+c:\users\flavia\documents\visual studio 2013\Projects\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\Application.Server.pdb
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\LSSvcGeneratorsTask.mcs
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\LSResourceGeneratorsTask.mcs
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\LSServerCodeGeneratorsTask.mcs
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Application.Server.dll.config
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Application.Server.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Application.Server.pdb
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\constructoraBERCOVICH.Server.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.Edm.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.OData.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.Data.Services.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.AppBridge.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Extensions.Server.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.ManifestService.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Model.Xaml.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Server.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.LightSwitch.Server.Host.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Server.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.PollingDuplex.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.Spatial.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\bin\Debug\System.ServiceModel.DomainServices.Server.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\constructoraBERCOVICH.Server.vbprojResolveAssemblyReference.cache
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\Application.Server.dll
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\constructoraBERCOVICH.Server.xml
+D:\constructoraBERCOVICH\constructoraBERCOVICH\constructoraBERCOVICH.Server\obj\Debug\Application.Server.pdb

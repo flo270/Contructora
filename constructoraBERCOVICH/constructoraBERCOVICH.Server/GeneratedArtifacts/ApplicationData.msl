@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping CdmEntityContainer="ApplicationData" StorageEntityContainer="ApplicationDataStore">
+    <EntitySetMapping Name="AVANCEDEOBRAs">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.AVANCEDEOBRA)">
+        <MappingFragment StoreEntitySet="AVANCEDEOBRAs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="TIPODEAVANCE" ColumnName="TIPODEAVANCE" />
+          <ScalarProperty Name="FECHAAVANCE" ColumnName="FECHAAVANCE" />
+          <ScalarProperty Name="FECHAPOSIBLEDEFINALIZACION" ColumnName="FECHAPOSIBLEDEFINALIZACION" />
+          <ScalarProperty Name="AVANCEDEOBRA_CONSTRUCCIONDEOBRA" ColumnName="AVANCEDEOBRA_CONSTRUCCIONDEOBRA" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONSTRUCCIONDEOBRAs">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.CONSTRUCCIONDEOBRA)">
+        <MappingFragment StoreEntitySet="CONSTRUCCIONDEOBRAs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="OBRA_CONSTRUCCIONDEOBRA" ColumnName="OBRA_CONSTRUCCIONDEOBRA" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INSPECCIONMUNICIPALs">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.INSPECCIONMUNICIPAL)">
+        <MappingFragment StoreEntitySet="INSPECCIONMUNICIPALs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FECHAREALIZADA" ColumnName="FECHAREALIZADA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="FECHAESTADO" ColumnName="FECHAESTADO" />
+          <ScalarProperty Name="INSPECCIONMUNICIPAL_OBRA" ColumnName="INSPECCIONMUNICIPAL_OBRA" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INSPECCIONs">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.INSPECCION)">
+        <MappingFragment StoreEntitySet="INSPECCIONs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="FECHADEESTADO" ColumnName="FECHADEESTADO" />
+          <ScalarProperty Name="INSPECCION_OBRA" ColumnName="INSPECCION_OBRA" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OBRAs">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.OBRA)">
+        <MappingFragment StoreEntitySet="OBRAs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="SUPERFICIEENMETROSCUADRADOS" ColumnName="SUPERFICIEENMETROSCUADRADOS" />
+          <ScalarProperty Name="FECHAINICIO" ColumnName="FECHAINICIO" />
+          <ScalarProperty Name="FECHAPROBABLEFIN" ColumnName="FECHAPROBABLEFIN" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERMISOSSet">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.PERMISOS)">
+        <MappingFragment StoreEntitySet="PERMISOSSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="FECHADEPRESENTACION" ColumnName="FECHADEPRESENTACION" />
+          <ScalarProperty Name="FECHADEAPROBACION" ColumnName="FECHADEAPROBACION" />
+          <ScalarProperty Name="PERMISOS_OBRA" ColumnName="PERMISOS_OBRA" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PLANOes">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.PLANO)">
+        <MappingFragment StoreEntitySet="PLANOes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="FECHAREALIZADO" ColumnName="FECHAREALIZADO" />
+          <ScalarProperty Name="FECHAAPROBADO" ColumnName="FECHAAPROBADO" />
+          <ScalarProperty Name="PLANO_OBRA" ColumnName="PLANO_OBRA" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
